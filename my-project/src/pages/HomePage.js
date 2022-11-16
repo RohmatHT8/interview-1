@@ -19,7 +19,7 @@ export default function HomePage() {
                     <input className="col-span-2 rounded-md text-sm px-3 py-1" placeholder="Search Name" />
                     <button className="bg-blue-500 hover:bg-blue-600 ml-1 rounded-md text-white font-semibold ">Search</button>
                 </form>
-                <div className='grid grid-cols-2 md:grid-cols-3 gap-1'>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-1'>
                     {
                         pokemons.length === 0 ? <h1>Loading ....</h1> : pokemons.results.map((el, idx) => <CardHomePage el={el} key={idx} />)
                     }

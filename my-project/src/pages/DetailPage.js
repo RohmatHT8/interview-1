@@ -39,7 +39,7 @@ export default function DetailPage() {
                                             return <>
                                                 <tr style={{ "height": `${el.base_stat}%` }}>
                                                     <th scope="row">{el.stat.name}</th>
-                                                    <td><span>{el.base_stat}</span></td>
+                                                    <td><span>{el.base_stat}%</span></td>
                                                 </tr>
                                             </>
                                         })
