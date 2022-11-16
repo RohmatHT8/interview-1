@@ -12,3 +12,4 @@ const wordWithoutSpecialChar = (word) => {
 }
 
 wordWithoutSpecialChar('Saat meng*ecat tembok, Agung dib_antu oleh Raihan.')
+// 
